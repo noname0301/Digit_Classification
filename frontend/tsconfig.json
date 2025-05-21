@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "esnext",                     // Output modern JS
+      "module": "esnext",                     // Use ES modules
+      "lib": ["dom", "dom.iterable", "esnext"], // Browser and latest JS libs
+      "allowJs": false,                       // Only TypeScript files
+      "skipLibCheck": true,                   // Skip type checking of declaration files
+      "esModuleInterop": true,                // Enable interoperability between CommonJS and ES Modules
+      "allowSyntheticDefaultImports": true,  // Allow default imports from modules with no default export
+      "strict": true,                         // Enable all strict type-checking options
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,                // For transpiling each file independently (important for Vite)
+      "noEmit": true,                         // Don’t output files (Vite handles build output)
+      "jsx": "react-jsx"                      // Use React 17+ JSX transform
+    },
+    "include": ["src"],                       // Your source folder
+    "exclude": ["node_modules", "dist"]      // Ignore dependencies and build output
+  }

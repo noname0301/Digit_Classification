@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+data/
+get_confusion_matrix.py
+visualizedataset.py
+confusion_matrix.png
